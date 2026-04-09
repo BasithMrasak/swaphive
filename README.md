@@ -36,18 +36,6 @@ pip install -r requirements.txt
 
 Create a `.env` file in the root:
 
-```env
-SECRET_KEY=your-secret-key
-DEBUG=True
-DB_NAME=swaphive_db
-DB_USER=swaphive_user
-DB_PASSWORD=your_password
-DB_HOST=localhost
-DB_PORT=5432
-```
-
----
-
 ## 🗄️ Database Setup (PostgreSQL)
 
 ```sql
@@ -108,14 +96,6 @@ Then create a Pull Request on GitHub.
 
 ---
 
-## 🚫 Rules
-
-* Do NOT commit `.env`
-* Do NOT commit `venv/` or `node_modules/`
-* Do NOT push directly to `main`
-* Always use feature branches
-
----
 
 ## 🆘 Common Issues
 
